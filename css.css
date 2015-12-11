@@ -1,5 +1,32 @@
 /* Style for UX */
 
-.ux-input{
+.ux-input[type="text"]{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
   padding: 8px 8px;
+  margin: 8px 0px;
+}
+.ux-input[type="text"]:first-child{
+  margin: 0px 0px;
+}
+.ux-input[type="text"].last{
+  margin: 8px 0px 16px 0px;
+}
+.ux-input[type="button"]{
+  float: right;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 8px 8px;
+}
+.ux-clear{
+  clear: both;
+}
+.ux-form{
+  background-color: red;
+  width: 250px;
+  position: relative;
+  padding: 24px;
 }
